@@ -17,7 +17,7 @@ import java.time.LocalDate;
 import static play.data.Form.*;
 
 public class Application extends Controller {
-
+// Committest Intellij 1
     public Result index() {
         return ok(index.render("Your new application is ready."));
     }
